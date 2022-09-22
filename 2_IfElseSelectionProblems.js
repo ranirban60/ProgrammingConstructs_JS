@@ -2,10 +2,12 @@
 let n1 = Math.floor(Math.random()*(999-100 + 1) + 100);
 let n2 = Math.floor(Math.random()*(999-100 + 1) + 100);
 let n3 = Math.floor(Math.random()*(999-100 + 1) + 100);
-let array = [n1,n2,n3];
+let n4 = Math.floor(Math.random()*(999-100 + 1) + 100);
+let n5 = Math.floor(Math.random()*(999-100 + 1) + 100);
+let array = [n1,n2,n3,n4,n5];
 array.sort(function(a, b){return a - b});
 console.log(array);
-console.log('Maximum and Minimum values are : ' + array[2] + ' and ' + array[0] + '\n');
+console.log('Maximum and Minimum values are : ' + array[4] + ' and ' + array[0] + '\n');
 
 
 //Q2 - day of month is between March 20 and June 20
