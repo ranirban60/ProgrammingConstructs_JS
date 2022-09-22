@@ -1,7 +1,7 @@
 //Q1 - Help user find degF or degC based on their Conversion Selection.
 const prompts = require("prompt-sync")();
 let option  = parseInt(prompts('Enter 1 to convert degC (0 to 100) to degF and 2 to convert degF (32 to 212) to degC : '));
-let temp = parseInt(prompts('Enter the temperature: '))
+let temp = parseInt(prompts('Enter the temperature: '));
 switch(option){
     case 1 :if(temp>=0 && temp<=100){
                  console.log('The temp in degrees F = ' + degF(temp) + '\n');
